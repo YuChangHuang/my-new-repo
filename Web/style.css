@@ -1,0 +1,102 @@
+
+
+
+.header-image img {
+    width: 1050px;
+    height:500px;
+    border-radius: 5px;
+    float:middle;
+    object-fit: cover;
+    }
+
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    height: 200px; /* 调整为实际logo的尺寸 */
+}
+
+.navigation button {
+    padding: 8px 16px;
+    margin-left: 8px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    background-color: #e0e0e0;
+}
+.header-image{
+    height: 1000px;
+
+}
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main section {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.pattern {
+    background-image: url('path-to-your-pattern-image.png');
+    height: 50px; /* Adjust based on actual height of your pattern */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

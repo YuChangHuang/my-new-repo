@@ -1,0 +1,474 @@
+/* Styles for the banner image */
+.banner-image { 
+    width: 100%;
+    height: auto; 
+    max-height: 600px; 
+    object-fit: cover; 
+    margin: 40px auto 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.learn-now-image {
+    width: 90%; 
+    max-width: 1000px; 
+    height: 400px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover; 
+}
+
+/* Styles for image */
+.Bicycles-parked-in-the-Netherlands {
+    width: 90%; 
+    max-width: 1000px;
+    height: 350px; 
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover; 
+}
+.cycling-windmills {
+    width: 90%; 
+    max-width: 1000px;
+    height: 350px; 
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover; 
+}
+
+.map-image {
+    width: 90%; 
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover; 
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1E1E1E;
+    background-color: #FFFFFF;
+    letter-spacing: normal;
+}
+
+p {
+    line-height: 1.5;
+    text-indent: 15px;
+    word-spacing: 1px;
+}
+
+h5 { 
+    text-transform: uppercase; 
+}
+
+h1, h2, h3 {
+    font-family: 'Lora' ; 
+    font-weight: bold; 
+    color: #ffffff; 
+    line-height: 1.3; 
+    margin: 20px 0; 
+}
+
+header {
+    background: linear-gradient(to right, #000070, #3ca7ff);
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header>figure {
+    margin: 0;
+    padding: 0 20px;
+}
+
+header>nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+header>nav>ul>li {
+    margin-right: 15px;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Styles for the banner container and image */
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 10px; 
+}
+
+.home-banner-image {
+    width: 95%;
+    height: auto; 
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+.banner-image {
+    width: 90%;
+    height: auto; 
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the text in the banner */
+.home-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; 
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; 
+}
+
+.main-title {
+    font-size: 140px;
+    margin: 0;
+}
+
+.sub-title {
+    font-size: 1.5em;
+    margin-top: 10px; 
+    font-weight: normal;
+}
+
+
+.sidebar {
+    width: 300px; 
+    position: sticky; 
+    top: 20px;
+    margin-left: 80px;
+}
+
+.float-box { 
+    float: left; 
+}
+
+.absolute-box { 
+    position: absolute; 
+} 
+
+.relative-box { 
+    position: relative; 
+}
+
+/* Sidebar card styling */
+.sidebar > .card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+}
+
+.sidebar > .card > h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sidebar > .card > p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+/* Main Content Styles */
+
+p::first-letter {
+    font-size: 110%;
+}
+
+main {
+    margin: 25px 70px 165px 500px; 
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #0A47A1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer figure {
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-links > nav > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links > nav > ul > li {
+    margin-bottom: 10px;
+}
+
+.footer-links > nav > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links > nav > ul > li > a:hover {
+    color: #00c3ff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* */
+/* Contact Form Section */
+.contact-form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e6e6e6;
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+}
+
+.contact-form legend {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    outline: none;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.4);
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.submit-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-group input {
+    padding: 12px 30px;
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-group input:hover {
+    background-color: #004494;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #0050A0, #60B3F5);
+    color: #fff;
+}
+
+.cookie-message { 
+    z-index: 9999;
+}
+
+p:nth-child(odd)
+{
+    background:#ffffff4d;
+}
+p:nth-child(even)
+{
+    background:#ffffff00;
+}
+
+
+@media (max-width: 768px) {
+    
+    .banner {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-top: 10px; 
+    }
+    
+    .home-banner-image {
+        width: 100%;
+        max-height: 600px;
+        object-fit: cover;
+        margin-top: 15px;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.8);
+    }
+    
+    .banner-image {
+        width: 90%;
+        height: auto; 
+        max-height: 600px;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .main-title {
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .sub-title {
+        font-size: 10px;
+        margin-top: 10px; /* Controls the spacing between main title and sub-title */
+        font-weight: normal;
+    }
+    
+
+    .sidebar {
+        width: 100%; /* Take full width on smaller screens */
+        margin:auto auto auto auto;
+        position: relative; /* Disable sticky positioning on mobile to prevent overlap issues */
+        top: 0;
+        flex-direction: column; /* Stack sidebar and main content vertically */
+        padding: 10px;
+    }
+
+    .sidebar > .card {
+        background: white;
+        padding: 10px;
+        margin:10px 50px 10px 50px;
+
+    }
+
+    .sidebar > .card p {
+        font-size: 14px; /* Reduce font size for better readability on smaller screens */
+    }
+
+
+    main {
+        margin: auto auto auto auto;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .contact-form-section {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 10px;
+    }
+
+    .submit-group button {
+        width: 100%;
+        padding: 12px;
+    }
+    
+}

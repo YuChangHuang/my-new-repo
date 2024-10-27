@@ -1,0 +1,49 @@
+.box {
+
+    background-color: lightblue;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.left {
+    width: 25%;
+    background-color: lightseagreen;
+}
+
+center {
+    width: 50%;
+    background-color: lightskyblue;
+}
+
+.right {
+    width: 25%;
+    background-color: lightslategrey;
+}
+
+
+
+section {
+    display: flex;
+    flex-grow: 1;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header,
+footer {
+    min-height: 60px;
+}
+
+header {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightcoral;
+}
